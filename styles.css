@@ -1,0 +1,41 @@
+/* #c45d72 #d33d24 #a7a79f #f4e969 #3c86ab */
+
+@font-face {
+  font-family: 'Akzidenz-Grotesk Roman';
+  src: url("https://americanmary.com/assets/fonts/AkzidenzGrotesk-Roman.eot");
+  src: url("https://americanmary.com/assets/fonts/AkzidenzGrotesk-Roman.eot?#iefix") format("embedded-opentype"), url("https://americanmary.com/assets/fonts/AkzidenzGrotesk-Roman.woff2") format("woff2"), url("https://americanmary.com/assets/fonts/AkzidenzGrotesk-Roman.woff") format("woff"), url("https://americanmary.com/assets/fonts/AkzidenzGrotesk-Roman.ttf") format("truetype"), url("https://americanmary.com/assets/fonts/AkzidenzGrotesk-Roman.svg#AkzidenzGrotesk-Roman") format("svg");
+  font-weight: normal;
+  font-style: normal; 
+}
+
+@font-face {
+  font-family: 'Akzidenz-Grotesk Medium';
+  src: url("https://americanmary.com/assets/fonts/AkzidenzGrotesk-Medium.eot");
+  src: url("https://americanmary.com/assets/fonts/AkzidenzGrotesk-Medium.eot?#iefix") format("embedded-opentype"), url("https://americanmary.com/assets/fonts/AkzidenzGrotesk-Medium.woff2") format("woff2"), url("https://americanmary.com/assets/fonts/AkzidenzGrotesk-Medium.woff") format("woff"), url("https://americanmary.com/assets/fonts/AkzidenzGrotesk-Medium.ttf") format("truetype"), url("https://americanmary.com/assets/fonts/AkzidenzGrotesk-Medium.svg#AkzidenzGrotesk-Medium") format("svg");
+  font-weight: normal;
+  font-style: normal; 
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: 'Akzidenz-Grotesk Medium', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.app-background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background: #c45d72;
+  color: white;
+}
+
+.app-heading {
+}
