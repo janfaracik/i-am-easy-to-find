@@ -34,15 +34,10 @@ html, body {
   justify-content: center;
   width: 100vw;
   height: 100vh;
-  background: #c45d72;
   color: white;
-  padding: 30px;
+  padding: 60px;
   box-sizing: border-box;
   border: 30px solid white;
-}
-
-.app-heading span {
-  
 }
 
 @keyframes appear-disappear {
