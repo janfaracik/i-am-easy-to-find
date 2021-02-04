@@ -1,4 +1,6 @@
+const background = document.getElementById("background")
 const heading = document.getElementById("heading")
+const colours = ["#c45d72", "#d33d24", "#a7a79f", "#f4e969", "#3c86ab"]
 
 fetch('quotes.txt')
   .then((response)=>response.text())
@@ -13,6 +15,8 @@ function run(lines) {
     const quote = lines[0]
     const duration = calculateStringDuration(quote)
     
+    shuffleArray(colours)
+    background.style.backgroundColor = colours[0];
     heading.innerHTML = spanify(quote, duration)
     
     return quote

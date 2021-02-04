@@ -1,5 +1,3 @@
-/* #c45d72 #d33d24 #a7a79f #f4e969 #3c86ab */
-
 @font-face {
   font-family: 'Akzidenz-Grotesk Roman';
   src: url("https://americanmary.com/assets/fonts/AkzidenzGrotesk-Roman.eot");
@@ -27,6 +25,7 @@ html, body {
   letter-spacing: 1px;
   text-align: center;
   font-size: 2rem;
+  cursor: none;
 }
 
 .app-background {
@@ -37,6 +36,9 @@ html, body {
   height: 100vh;
   background: #c45d72;
   color: white;
+  padding: 30px;
+  box-sizing: border-box;
+  border: 30px solid white;
 }
 
 .app-heading span {
