@@ -25,6 +25,8 @@ html, body {
   font-family: 'Akzidenz-Grotesk Medium', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
+  text-align: center;
+  font-size: 2rem;
 }
 
 .app-background {
@@ -37,5 +39,21 @@ html, body {
   color: white;
 }
 
-.app-heading {
+.app-heading span {
+  
+}
+
+@keyframes appear-disappear {
+  0% {
+    opacity: 0;
+  }
+  0.1% {
+    opacity: 100%;
+  }
+  99.9% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0;
+  }
 }
